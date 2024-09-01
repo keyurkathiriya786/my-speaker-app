@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.MuiDrawer-paper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.MuiListItem-root {
+  align-items: flex-start;
+}
+
+.MuiListItemText-root {
+  margin: 0;
+}
+
+.sidebar-mui-appbar{
+  box-shadow: none !important; 
+}
+
+
+/* .MuiButton-containedPrimary {
+  background-color: #FF7043 !important
+} */
+
+.add-speaker-btm-main{
+  background-color: #FF7043 !important;
+  text-transform: capitalize !important;
+}
+
+.MuiButton-containedPrimary:hover {
+  background-color: #FF5722;
+}
+
+/* Responsive design for Add Speaker button */
+@media (max-width: 600px) {
+  .MuiBox-root {
+    padding: 16px;
+  }
+
+  .MuiButton-containedPrimary {
+    width: 100%;
+  }
+}
